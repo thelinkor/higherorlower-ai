@@ -1,5 +1,6 @@
 # HIGHER OR LOWER AI
 In this project we implement the Higher or Lower game and create two AIs for it.
+Inspired by open AIs Hotter-colder problem 
 
 The AIs are created using the Jenetics package. For easy access, use Maven together with the included pom
 file.
