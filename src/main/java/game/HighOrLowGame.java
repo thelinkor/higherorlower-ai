@@ -41,4 +41,8 @@ public class HighOrLowGame {
     public void reset(){
         targetNumber = targetSeeder.nextInt(highestBound);
     }
+
+    public int getTargetNumber() {
+        return targetNumber;
+    }
 }

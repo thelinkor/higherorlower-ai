@@ -1,13 +1,9 @@
 package jeneticsai;
 
-import com.sun.source.util.TreePath;
 import game.HighOrLowGame;
 import io.jenetics.*;
 import io.jenetics.engine.*;
-import io.jenetics.util.ISeq;
 import io.jenetics.util.IntRange;
-
-import java.util.TreeSet;
 
 public class JeneticsAI {
 
