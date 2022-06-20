@@ -1,4 +1,4 @@
-package neurlanet.data;
+package neurlanet;
 
 import game.GameBot;
 import game.HighOrLowGame;

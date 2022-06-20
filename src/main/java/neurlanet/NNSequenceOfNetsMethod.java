@@ -1,4 +1,4 @@
-package neurlanet.data;
+package neurlanet;
 
 import game.GameBot;
 import game.HighOrLowGame;
@@ -18,7 +18,6 @@ import org.nd4j.linalg.learning.config.Nesterovs;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 
 import java.util.*;
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
 public class NNSequenceOfNetsMethod {

@@ -1,4 +1,4 @@
-package neurlanet.data;
+package neurlanet;
 
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.nd4j.linalg.factory.Nd4j;
@@ -39,6 +39,14 @@ public class NNGameBotProvider implements ActionProvider, ResultObserver {
     }
 
     public void printCurrent(){
-        System.out.println(Arrays.toString(currentSetup));
+        System.out.println(Arrays.toString(Arrays.stream(currentSetup).mapToInt(x -> (int)x).toArray()));
+    }
+
+    public MultiLayerNetwork getNet() {
+        return net;
+    }
+
+    public double[] getCurrentSetup() {
+        return currentSetup;
     }
 }

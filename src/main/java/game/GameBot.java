@@ -4,7 +4,7 @@ import player.action.ActionProvider;
 import player.observers.ResultObserver;
 
 public class GameBot {
-    public static final int MAX_NUMBER_OF_MOVES = 2_0;
+    public static final int MAX_NUMBER_OF_MOVES = 10;
 
     private final HighOrLowGame game;
     private final ActionProvider actionProvider;
